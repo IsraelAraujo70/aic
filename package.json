@@ -1,0 +1,22 @@
+{
+  "name": "aic-llm",
+  "version": "1.0.0",
+  "description": "Call any LLM from the browser console. Zero deps, one function.",
+  "type": "module",
+  "main": "index.mjs",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "default": "./index.mjs"
+    }
+  },
+  "files": ["index.mjs"],
+  "keywords": ["ai", "llm", "console", "browser", "openrouter", "claude", "gpt"],
+  "author": "Israel Araujo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsraelAraujo70/aic"
+  }
+}
