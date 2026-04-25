@@ -1,5 +1,5 @@
 // aic — AI Console: call any LLM from the browser console
-// Usage: await q("pergunta", "israel##")
+// Usage: await q("pergunta", "senha")
 const P="https://aic-proxy.vercel.app/api/q";
 export default async function q(prompt, pass, model) {
   const r = await fetch(P, {
